@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Arquivos especificos do Dev-C++
+*.layout
+Makefile.win
