@@ -12,7 +12,9 @@ int main() {
 	
 	while (num < 1) {
 		printf ("---------------------------------\n");
-		printf (" [!] O numero deve ser maior que 0.");
+		printf (" [!] O numero deve ser maior que 0.\n");
+		printf ("---------------------------------\n");
+		printf (" - Informe um numero: ");
 		scanf ("%d", &num);
 	}
 	
