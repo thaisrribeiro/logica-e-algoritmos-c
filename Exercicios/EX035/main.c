@@ -34,28 +34,29 @@ int main() {
 		}
 	
 		if (menu == 5) {
-			printf ("|---------------------------------\n| Encerrando Programa...\n");
+			printf ("|---------------------------------\n| Encerrando Programa...");
 		}
 		else {
 			switch (menu) {
 				case 1: // Cadastrar Livros
-					if (qtd_livros == 5) {
+					if (qtd_livros == MAX) {
 						printf ("|---------------------------------\n| [!] Maximo de Livros Atingidos!\n|---------------------------------\n");
 					}
 					else {
-						i == qtd_livros;
+						i = qtd_livros;
 						qtd_livros++;
 						printf ("|---------------------------------\n| LIVRO %d\n", qtd_livros);
 						printf ("| Codigo: ");
 						scanf ("%d", &livro[i].codigo);
+						while (getchar() != '\n');
 						printf ("| Titulo: ");
-						scanf(" %[^\n]", livro[i].titulo);
+						scanf(" %49[^\n]", livro[i].titulo);
 						printf ("| Autor: ");
-						scanf(" %[^\n]", livro[i].autor);
+						scanf(" %29[^\n]", livro[i].autor);
 						printf ("| Area: ");
-						scanf(" %[^\n]", livro[i].area);
+						scanf(" %29[^\n]", livro[i].area);
 						printf ("| Editora: ");
-						scanf(" %[^\n]", livro[i].editora);
+						scanf(" %29[^\n]", livro[i].editora);
 						printf ("| Ano: ");
 						scanf ("%d", &livro[i].ano);
 						
@@ -64,8 +65,8 @@ int main() {
 							scanf ("%d", &livro[i].ano);
 						}
 						printf ("|---------------------------------\n| CADASTRO REALIZADO!\n|---------------------------------\n");
-				break;
 					}
+				break;
 				case 2: // Imprimir Informações
 					if (qtd_livros < 1) {
 						printf ("|---------------------------------\n| [!] NENHUM LIVRO CADASTRADO!\n|---------------------------------\n");
@@ -124,8 +125,8 @@ int main() {
 							for (j = i+1; j < qtd_livros; j++) {
 								if (livro[i].ano > livro[j].ano) {
 									temp = livro[i];
-									livro[j] = livro[i];
-									livro[i] = temp;
+									livro[i] = livro[j];
+									livro[j] = temp;
 								}
 							}
 						}
@@ -145,6 +146,5 @@ int main() {
 			}
 		}	
 	}	
-	printf ("|---------------------------------\n| Programa Encerrado.");
 	return 0;
 }
