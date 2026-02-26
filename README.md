@@ -1,6 +1,7 @@
 # Estudos-Linguagem-C
 
 Este repositório contém as resoluções dos exercícios propostos no livro didático de Linguagem C da minha faculdade.
+**Essas questões tem como objetivo desenvolver a lógica de programação e a criação de algoritmos.**
 
 
 
