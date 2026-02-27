@@ -1,25 +1,32 @@
-# Estudos-Linguagem-C
+# Lógica e Algoritmos em C
 
-Este repositório contém as resoluções dos exercícios propostos no livro didático de Linguagem C da minha faculdade.
-**Essas questões tem como objetivo desenvolver a lógica de programação e a criação de algoritmos.**
+Este repositório é dedicado ao registro da minha evolução na **Programação Estruturada**. Aqui, implemento resoluções para problemas lógicos e algoritmos fundamentais, utilizando a Linguagem C como base.
+
+## 🎯 Foco Principal
+* Entrada e Saída de Dados
+* Estruturas Condicionais
+* Estruturas de Repetição
+* Vetores, Strings e Matrizes
+* Funções e Arquivos
 
 
 
-#### 📚 Referência
+## 📚 Referência Acadêmica
+Os exercícios contidos aqui fazem parte do cronograma da disciplina de **Linguagem e Técnicas de Programação**.
 
 * **Livro**: Linguagem e Técnicas de Programação
-* **Autor:** Dra. Gislaine Camila Lapasini Leal \& Me. Pietro Martins de Oliveira
-* **Disciplina:** Linguagem e Técnicas de Programação
+* **Autor:** Dra. Gislaine Camila Lapasini Leal & Me. Pietro Martins de Oliveira
 
 
 
-#### ⚙️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
 
-* Linguagem C ✅
-* IDE Dev-C++ ✅
+* **Linguagem**: C ✅
+* **Paradigma:** Estruturado ✅
+* **IDE utilizada**: Dev-C++ ✅
 
 
 
-#### 📁 Organização
+## 📁 Organização
 
-O repositório contém a pasta **Exercicios**, onde estão os códigos de cada exercício separados por pastas individuais. 
+O projeto está estruturado na pasta `Exercicios/`, onde cada desafio possui sua própria pasta individual contendo o código-fonte `(.c)`. 
